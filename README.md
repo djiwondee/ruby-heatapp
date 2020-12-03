@@ -66,17 +66,10 @@ Here are a few interesting API targets to play with.
 * `/api/user/list`
 * `/api/user/datetime`
 
-For a full list, including POST parameter examples, see my anonymized examples in [spec/fixtures/](spec/fixtures/<url>).
+For a full list, including POST parameter examples, see my anonymized examples in [spec/fixtures/](https://github.com/djiwondee/ruby-heatapp/tree/master/spec/fixtures).
 
 * `<path>.json` is the result of an request
 * `<path>.post` contains the POST data (uriencoded), excluding session parameters which would be added by `Heatapp::Api`
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/lazyfrosch/ruby-heatapp.
-
-This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to
-the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
